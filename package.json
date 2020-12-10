@@ -1,0 +1,17 @@
+{
+  "name": "axios-stream",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn install && tsc --build tsconfig.json",
+    "build_go":"yarn build && yarn go",
+    "go":"node lib/index.js",
+    "play": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "node": "^15.0.1"
+  },
+  "devDependencies": {
+  }
+}
