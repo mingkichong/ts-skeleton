@@ -10,7 +10,7 @@
     "play": "ts-node src/index.ts"
   },
   "dependencies": {
-    "node": "^15.0.1"
+    "node": "^15.3.0"
   },
   "devDependencies": {
   }
